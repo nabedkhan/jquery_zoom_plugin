@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>jQuery Zoom Plugin</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2>JQuery Zoom Plugin</h2>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="col-lg-6">
+                <div class='zoom'>
+                    <img src='images/image 1.jpg' width='555' height='320' alt='Nabed Khan'/>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class='zoom'>
+                    <img src='images/image 2.jpg' width='555' height='320' alt='Nabed Khan'/>
+                </div>
+            </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="row">
+            <div class="col-md-12">
+                <h2>Designed By <a href="http://nabedkhan.com/">Nabed Khan</a></h2>
+            </div>
+        </div>
+        </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.zoom.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.zoom').zoom();
+        });
+    </script>
+  </body>
+</html>
